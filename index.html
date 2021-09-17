@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png" />
+    <style>
+        body{
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #3f3c56;
+            font-weight: 300;
+        }
+
+        h3{
+            font-weight: 450;
+        }
+
+        p {
+            max-width: 70%;
+            margin: 0 auto;
+        }
+
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .img-container{
+            max-width: 30%;
+            padding: 45 px;
+            margin: 0 auto;
+        }
+
+        .logo-container{
+            max-width: 8%;
+            padding: 45 px;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media(max-width: 620px){
+            .img-container{
+            max-width: 45%;}
+            .logo-container{
+            max-width: 15%;}
+        }
+
+    </style>
+    <title>Error - CP+R</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img src="assets/error.svg" alt="Error" />
+        </div>
+        <h3>Application Error</h3>
+        <p>There has been a critical error with this application. The development team have been informed
+            and are working to fix the issue. 
+        </p>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Error" />
+        </div>
+    </div>
+</body>
+</html>
